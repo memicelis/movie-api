@@ -1,0 +1,7 @@
+follow_one:
+  user: user_one
+  movie: movie_one
+
+follow_two:
+  user: user_two
+  movie: movie_two
