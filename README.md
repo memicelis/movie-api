@@ -240,6 +240,14 @@ docker-compose -f docker-compose.prod.yml up -d
    - Role-based access control
    - Rate limiting for API protection
 
+## Postman Collection
+
+A Postman collection is available for testing the API endpoints. You can import it using the following steps:
+
+1. Download the Postman collection file from [here](postman-collection.json).
+2. Open Postman and click on the "Import" button.
+3. Select the downloaded file and import it into Postman.
+
 ## Challenges and Solutions
 
 1. **Authentication in WebSockets**
