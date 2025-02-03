@@ -77,7 +77,6 @@ jobs:
           REDIS_URL: redis://localhost:6379/0
         run: |
           bin/rails zeitwerk:check
-          bin/rails test:prepare
           bin/rails db:test:prepare
           bin/rails test
           bin/rails test:system
